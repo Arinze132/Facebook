@@ -1,0 +1,90 @@
+body{
+    background-color: #f0f0f0;
+}
+
+:root{
+    ---primary: rgb(0, 98, 255);
+}
+.all-container{
+    margin: 8% 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.left-box h1 span{
+    display: block;
+}
+.left-box h1 span:first-child{
+    font-size: 30px;
+    color: var(---primary);
+}
+.left-box h1 span:last-child{
+    font-size: 30px;
+    color: #555;
+    font-weight: lighter;
+}
+.left-box, .right-box{
+    flex-basis: 50%;
+}
+.right-box{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 40px 7px 15px #ccc;
+    border: 1px solid #ccc;
+}
+.right-box input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+
+}
+.right-box input:focus{
+    outline: 1px solid var(---primary);
+}
+.right-box input::placeholder{
+    padding: 10px;
+}
+
+.cta{
+    background-color: var(---primary);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+p a{
+    text-decoration: none;
+    color: var(---primary);
+}
+
+.line{
+    width: 100%;
+   background-color: #ccc;
+   height: 1px;
+   margin-bottom: 20px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    background-color: green;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 50%;
+}
+.btn button:hover{
+    background-color: rgb(34, 210, 34);
+}
